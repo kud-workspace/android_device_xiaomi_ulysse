@@ -1,4 +1,5 @@
 service vendor.xiaomi_device_script /vendor/bin/init.xiaomi.device.sh
-    class main
+    class core
     user root
+    group root
     oneshot
