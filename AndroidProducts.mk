@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ulysse.mk
+    $(LOCAL_DIR)/derp_ulysse.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ulysse-user \
-    lineage_ulysse-userdebug \
-    lineage_ulysse-eng
+    derp_ulysse-user \
+    derp_ulysse-userdebug \
+    derp_ulysse-eng

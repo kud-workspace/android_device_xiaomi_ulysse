@@ -7,6 +7,8 @@
 # Inherit from common msm8937-common
 include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
+BOARD_VENDOR := xiaomi
+
 DEVICE_PATH := device/xiaomi/ulysse
 
 # Asserts

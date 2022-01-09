@@ -9,23 +9,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from ulysse device
 $(call inherit-product, device/xiaomi/ulysse/device.mk)
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-derp
 
 # Device identifier. This must come after all inclusions
+PRODUCT_BRAND := xiaomi
 PRODUCT_DEVICE := ulysse
-PRODUCT_NAME := lineage_ulysse
-BOARD_VENDOR := Xiaomi
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 5A / Y1
 PRODUCT_MANUFACTURER := Xiaomi
-TARGET_VENDOR := Xiaomi
+PRODUCT_MODEL := Redmi Note 5A
+PRODUCT_NAME := derp_ulysse
+TARGET_VENDOR := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
