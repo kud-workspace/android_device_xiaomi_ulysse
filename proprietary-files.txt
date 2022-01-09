@@ -1,6 +1,4 @@
-# All unpinned blobs below are extracted from ugg-user 7.1.2 N2G47H V11.0.2.0.NDKMIXM release-keys
-# vince Package version: vince-user 8.1.0 OPM1.171019.019 V11.0.2.0.OEGMIXM release-keys
-# daisy Package version: daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys
+# Blobs are extracted from ugg-user 7.1.2 N2G47H 9.10.10 release-keys, unless stated
 
 # ACDB
 etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -11,139 +9,11 @@ etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 etc/acdbdata/MTP/MTP_Headset_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 etc/acdbdata/MTP/MTP_Speaker_cal.acdb:vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 
-# Camera
-bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
-vendor/lib/libchromaflash.so
-vendor/lib/libflash_gpio.so
-vendor/lib/libflash_pmic.so
-vendor/lib/libjpegdhw.so
-vendor/lib/libjpegdmahw.so
-vendor/lib/libjpegehw.so
-vendor/lib/libllvd_smore.so
-vendor/lib/libmmjpeg.so
-vendor/lib/libmmqjpeg_codec.so
-vendor/lib/libmmqjpegdma.so
-vendor/lib/libmmsw_detail_enhancement.so
-vendor/lib/libmmsw_math.so
-vendor/lib/libmmsw_opencl.so
-vendor/lib/libmmsw_platform.so
-vendor/lib/libmpbase.so
-vendor/lib/libois_lc898122.so
-vendor/lib/liboptizoom.so
-vendor/lib/libqomx_jpegdec.so
-vendor/lib/libqomx_jpegenc_pipe.so
-vendor/lib/libqomx_jpegenc.so
-vendor/lib/libremosaic_daemon.so
-vendor/lib/libseemore.so
-vendor/lib/libtrueportrait.so
-vendor/lib/libubifocus.so
-
-# Camera - mmcamera
-vendor/lib/libmmcamera2_c2d_module.so
-vendor/lib/libmmcamera2_cpp_module.so
-vendor/lib/libmmcamera2_dcrf.so
-vendor/lib/libmmcamera2_frame_algorithm.so
-vendor/lib/libmmcamera2_iface_modules.so
-vendor/lib/libmmcamera2_imglib_modules.so
-vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_is.so
-vendor/lib/libmmcamera2_mct_shimlayer.so
-vendor/lib/libmmcamera2_mct.so
-vendor/lib/libmmcamera2_pp_buf_mgr.so
-vendor/lib/libmmcamera2_pproc_modules.so
-vendor/lib/libmmcamera2_q3a_core.so
-vendor/lib/libmmcamera2_sensor_modules.so
-vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_modules.so
-vendor/lib/libmmcamera_cac3_lib.so
-vendor/lib/libmmcamera_chromaflash_lib.so
-vendor/lib/libmmcamera_csidtg.so
-vendor/lib/libmmcamera_dbg.so
-vendor/lib/libmmcamera_dcrf_lib.so
-vendor/lib/libmmcamera_dummyalgo.so
-vendor/lib/libmmcamera_eebinparse.so
-vendor/lib/libmmcamera_eeprom_util.so
-vendor/lib/libmmcamera_eztune_module.so
-vendor/lib/libmmcamera_facedetection_lib.so
-vendor/lib/libmmcamera_faceproc2.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_hdr_gb_lib.so
-vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_isp_abf40.so
-vendor/lib/libmmcamera_isp_bcc40.so
-vendor/lib/libmmcamera_isp_be_stats44.so
-vendor/lib/libmmcamera_isp_bf_stats47.so
-vendor/lib/libmmcamera_isp_bg_stats44.so
-vendor/lib/libmmcamera_isp_bhist_stats44.so
-vendor/lib/libmmcamera_isp_bpc40.so
-vendor/lib/libmmcamera_isp_chroma_enhan40.so
-vendor/lib/libmmcamera_isp_chroma_suppress40.so
-vendor/lib/libmmcamera_isp_clamp_encoder40.so
-vendor/lib/libmmcamera_isp_clamp_video40.so
-vendor/lib/libmmcamera_isp_clamp_viewfinder40.so
-vendor/lib/libmmcamera_isp_color_correct40.so
-vendor/lib/libmmcamera_isp_color_xform_encoder40.so
-vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so
-vendor/lib/libmmcamera_isp_cs_stats44.so
-vendor/lib/libmmcamera_isp_demosaic40.so
-vendor/lib/libmmcamera_isp_demux40.so
-vendor/lib/libmmcamera_isp_fovcrop_encoder40.so
-vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so
-vendor/lib/libmmcamera_isp_gamma40.so
-vendor/lib/libmmcamera_isp_ihist_stats44.so
-vendor/lib/libmmcamera_isp_linearization40.so
-vendor/lib/libmmcamera_isp_ltm44.so
-vendor/lib/libmmcamera_isp_luma_adaptation40.so
-vendor/lib/libmmcamera_isp_mce40.so
-vendor/lib/libmmcamera_isp_mesh_rolloff40.so
-vendor/lib/libmmcamera_isp_rs_stats44.so
-vendor/lib/libmmcamera_isp_scaler_encoder44.so
-vendor/lib/libmmcamera_isp_scaler_viewfinder44.so
-vendor/lib/libmmcamera_isp_sce40.so
-vendor/lib/libmmcamera_isp_sub_module.so
-vendor/lib/libmmcamera_isp_template.so
-vendor/lib/libmmcamera_isp_wb40.so
-vendor/lib/libmmcamera_llvd.so
-vendor/lib/libmmcamera_optizoom_lib.so
-vendor/lib/libmmcamera_paaf_lib.so
-vendor/lib/libmmcamera_pdafcamif.so
-vendor/lib/libmmcamera_pdaf.so
-vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_ppeiscore.so
-vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so
-vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so
-vendor/lib/libmmcamera_quadracfa.so
-vendor/lib/libmmcamera_stillmore_lib.so
-vendor/lib/libmmcamera_sw2d_lib.so
-vendor/lib/libmmcamera_thread_services.so
-vendor/lib/libmmcamera_tintless_algo.so
-vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_trueportrait_lib.so
-vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmcamera_tuning.so
-vendor/lib/libmmcamera_ubifocus_lib.so
-
-# Camera - Actuators
+# Camera-actuators
 vendor/lib/libactuator_dw9714.so
 vendor/lib/libactuator_fp5510_f13855bd.so
 
-# Camera - Eeproms
-vendor/lib/libmmcamera_ov13855_f13855bd_qtech_eeprom.so
-vendor/lib/libmmcamera_ov16885_ojf0541_ofilm_d6s_eeprom.so
-vendor/lib/libmmcamera_s5k3l8_ohp0502_ofilm_eeprom.so
-vendor/lib/libmmcamera_s5k3p8sp_d16s01n_sunny_d6s_eeprom.so
-vendor/lib/libmmcamera_s5k5e8_f5e8ybf_qtech_eeprom.so
-vendor/lib/libmmcamera_s5k5e8_oef0501_ofilm_eeprom.so
-
-# Camera - Sensors
-vendor/lib/libmmcamera_ov13855_f13855bd_d6.so
-vendor/lib/libmmcamera_ov16885_ojf0541_d6.so
-vendor/lib/libmmcamera_s5k3l8_ohp0502_d6.so
-vendor/lib/libmmcamera_s5k3p8sp_d16s01n_d6s.so
-vendor/lib/libmmcamera_s5k5e8_f5e8ybf_d6.so
-vendor/lib/libmmcamera_s5k5e8_oef0501_d6.so
-
-# Camera - Chromatix
+# Camera-chromatix
 vendor/lib/libchromatix_ov13855_f13855bd_qtech_d6_common.so
 vendor/lib/libchromatix_ov13855_f13855bd_qtech_d6_cpp_hfr_120.so
 vendor/lib/libchromatix_ov13855_f13855bd_qtech_d6_cpp_hfr_60.so
@@ -461,11 +331,9 @@ vendor/lib/libchromatix_s5k5e8_oef0501_ofilm_d6_preview.so
 vendor/lib/libchromatix_s5k5e8_oef0501_ofilm_d6_weixin_preview_3a.so
 vendor/lib/libchromatix_s5k5e8_oef0501_ofilm_d6_weixin_video.so
 
-# Camera configs
+# Camera-configs
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml|3c0bc38854caeb4e2728762c4bdabcc5c7ba3f5a
 etc/camera/csidtg_camera.xml:vendor/etc/camera/csidtg_camera.xml
-
-# Camera configs - Chromatix
 etc/camera/ov13855_f13855bd_qtech_d6_chromatix.xml:vendor/etc/camera/ov13855_f13855bd_qtech_d6_chromatix.xml
 etc/camera/ov13855_f13855bd_qtech_d6s_chromatix_india.xml:vendor/etc/camera/ov13855_f13855bd_qtech_d6s_chromatix_india.xml
 etc/camera/ov16885_ojf0541_d6_chromatix.xml:vendor/etc/camera/ov16885_ojf0541_d6_chromatix.xml
@@ -478,20 +346,148 @@ etc/camera/s5k5e8_f5e8ybf_qtech_d6_chromatix.xml:vendor/etc/camera/s5k5e8_f5e8yb
 etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix_india.xml:vendor/etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix_india.xml
 etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix.xml:vendor/etc/camera/s5k5e8_oef0501_ofilm_d6_chromatix.xml
 
+# Camera-EEPROMs
+vendor/lib/libmmcamera_ov13855_f13855bd_qtech_eeprom.so
+vendor/lib/libmmcamera_ov16885_ojf0541_ofilm_d6s_eeprom.so
+vendor/lib/libmmcamera_s5k3l8_ohp0502_ofilm_eeprom.so
+vendor/lib/libmmcamera_s5k3p8sp_d16s01n_sunny_d6s_eeprom.so
+vendor/lib/libmmcamera_s5k5e8_f5e8ybf_qtech_eeprom.so
+vendor/lib/libmmcamera_s5k5e8_oef0501_ofilm_eeprom.so
+
+# Camera-HAL
+bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
+vendor/lib/libchromaflash.so
+vendor/lib/libflash_gpio.so
+vendor/lib/libflash_pmic.so
+vendor/lib/libjpegdhw.so
+vendor/lib/libjpegdmahw.so
+vendor/lib/libjpegehw.so
+vendor/lib/libllvd_smore.so
+vendor/lib/libmmjpeg.so
+vendor/lib/libmmqjpeg_codec.so
+vendor/lib/libmmqjpegdma.so
+vendor/lib/libmmsw_detail_enhancement.so
+vendor/lib/libmmsw_math.so
+vendor/lib/libmmsw_opencl.so
+vendor/lib/libmmsw_platform.so
+vendor/lib/libmpbase.so
+vendor/lib/libois_lc898122.so
+vendor/lib/liboptizoom.so
+vendor/lib/libqomx_jpegdec.so
+vendor/lib/libqomx_jpegenc_pipe.so
+vendor/lib/libqomx_jpegenc.so
+vendor/lib/libremosaic_daemon.so
+vendor/lib/libseemore.so
+vendor/lib/libtrueportrait.so
+vendor/lib/libubifocus.so
+
+# Camera-mmcamera
+vendor/lib/libmmcamera2_c2d_module.so
+vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_dcrf.so
+vendor/lib/libmmcamera2_frame_algorithm.so
+vendor/lib/libmmcamera2_iface_modules.so
+vendor/lib/libmmcamera2_imglib_modules.so
+vendor/lib/libmmcamera2_isp_modules.so
+vendor/lib/libmmcamera2_is.so
+vendor/lib/libmmcamera2_mct_shimlayer.so
+vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_pp_buf_mgr.so
+vendor/lib/libmmcamera2_pproc_modules.so
+vendor/lib/libmmcamera2_q3a_core.so
+vendor/lib/libmmcamera2_sensor_modules.so
+vendor/lib/libmmcamera2_stats_algorithm.so
+vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera_cac3_lib.so
+vendor/lib/libmmcamera_chromaflash_lib.so
+vendor/lib/libmmcamera_csidtg.so
+vendor/lib/libmmcamera_dbg.so
+vendor/lib/libmmcamera_dcrf_lib.so
+vendor/lib/libmmcamera_dummyalgo.so
+vendor/lib/libmmcamera_eebinparse.so
+vendor/lib/libmmcamera_eeprom_util.so
+vendor/lib/libmmcamera_eztune_module.so
+vendor/lib/libmmcamera_facedetection_lib.so
+vendor/lib/libmmcamera_faceproc2.so
+vendor/lib/libmmcamera_faceproc.so
+vendor/lib/libmmcamera_hdr_gb_lib.so
+vendor/lib/libmmcamera_imglib.so
+vendor/lib/libmmcamera_isp_abf40.so
+vendor/lib/libmmcamera_isp_bcc40.so
+vendor/lib/libmmcamera_isp_be_stats44.so
+vendor/lib/libmmcamera_isp_bf_stats47.so
+vendor/lib/libmmcamera_isp_bg_stats44.so
+vendor/lib/libmmcamera_isp_bhist_stats44.so
+vendor/lib/libmmcamera_isp_bpc40.so
+vendor/lib/libmmcamera_isp_chroma_enhan40.so
+vendor/lib/libmmcamera_isp_chroma_suppress40.so
+vendor/lib/libmmcamera_isp_clamp_encoder40.so
+vendor/lib/libmmcamera_isp_clamp_video40.so
+vendor/lib/libmmcamera_isp_clamp_viewfinder40.so
+vendor/lib/libmmcamera_isp_color_correct40.so
+vendor/lib/libmmcamera_isp_color_xform_encoder40.so
+vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so
+vendor/lib/libmmcamera_isp_cs_stats44.so
+vendor/lib/libmmcamera_isp_demosaic40.so
+vendor/lib/libmmcamera_isp_demux40.so
+vendor/lib/libmmcamera_isp_fovcrop_encoder40.so
+vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so
+vendor/lib/libmmcamera_isp_gamma40.so
+vendor/lib/libmmcamera_isp_ihist_stats44.so
+vendor/lib/libmmcamera_isp_linearization40.so
+vendor/lib/libmmcamera_isp_ltm44.so
+vendor/lib/libmmcamera_isp_luma_adaptation40.so
+vendor/lib/libmmcamera_isp_mce40.so
+vendor/lib/libmmcamera_isp_mesh_rolloff40.so
+vendor/lib/libmmcamera_isp_rs_stats44.so
+vendor/lib/libmmcamera_isp_scaler_encoder44.so
+vendor/lib/libmmcamera_isp_scaler_viewfinder44.so
+vendor/lib/libmmcamera_isp_sce40.so
+vendor/lib/libmmcamera_isp_sub_module.so
+vendor/lib/libmmcamera_isp_template.so
+vendor/lib/libmmcamera_isp_wb40.so
+vendor/lib/libmmcamera_llvd.so
+vendor/lib/libmmcamera_optizoom_lib.so
+vendor/lib/libmmcamera_paaf_lib.so
+vendor/lib/libmmcamera_pdafcamif.so
+vendor/lib/libmmcamera_pdaf.so
+vendor/lib/libmmcamera_ppbase_module.so
+vendor/lib/libmmcamera_ppeiscore.so
+vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so
+vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so
+vendor/lib/libmmcamera_quadracfa.so
+vendor/lib/libmmcamera_stillmore_lib.so
+vendor/lib/libmmcamera_sw2d_lib.so
+vendor/lib/libmmcamera_thread_services.so
+vendor/lib/libmmcamera_tintless_algo.so
+vendor/lib/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib/libmmcamera_trueportrait_lib.so
+vendor/lib/libmmcamera_tuning_lookup.so
+vendor/lib/libmmcamera_tuning.so
+vendor/lib/libmmcamera_ubifocus_lib.so
+
+# Camera-sensors
+vendor/lib/libmmcamera_ov13855_f13855bd_d6.so
+vendor/lib/libmmcamera_ov16885_ojf0541_d6.so
+vendor/lib/libmmcamera_s5k3l8_ohp0502_d6.so
+vendor/lib/libmmcamera_s5k3p8sp_d16s01n_d6s.so
+vendor/lib/libmmcamera_s5k5e8_f5e8ybf_d6.so
+vendor/lib/libmmcamera_s5k5e8_oef0501_d6.so
+
 # ConsumerIR
 lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.msm8937.so
 
-# Fingerprint - FPC
+# Fingerprint-FPC
 lib64/hw/fingerprint.msm8937.so:vendor/lib64/hw/fingerprint.msm8937.so
 lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so
 
-# Fingerprint - Goodix - from vince
+# Fingerprint-Goodix - from vince-user 8.1.0 OPM1.171019.019 V11.0.2.0.OEGMIXM release-keys
 etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin|cbd87b30f72e82adf87537fe93911fb2d70bce84
 lib64/libgf_algo.so:vendor/lib64/libgf_algo.so|0e9d1ff46c6d14974ec93e3a146c2c6c0460d1b7
 lib64/libgf_ca.so:vendor/lib64/libgf_ca.so|583a2beee40b38cf14215e4aaa5d872d60b8a00a
 lib64/libgf_hal.so:vendor/lib64/libgf_hal.so|6fd3d415d5822b746a1a9b1163c3c6ddab35912c
 
-# Fingerprint - Goodix HAL - from daisy
+# Fingerprint-Goodix - from daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys
 vendor/lib64/hw/gf_fingerprint.default.so|b09aba758c469f3e3ff04197a723a15fbdfafea1
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|4b3e658f52dfe31d7883f19bbeb8e05d323ba607|feee131f714ed9a7dd93e7ba9bfc768cbf651426
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|feee131f714ed9a7dd93e7ba9bfc768cbf651426
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|c9d0251df63d8e34b6d70a59ad7b774c9f640fa1
