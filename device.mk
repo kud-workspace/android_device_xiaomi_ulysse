@@ -26,6 +26,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
+# Camera
+# TODO: Move this to common
+PRODUCT_PACKAGES += \
+    libgui_vendor:32
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_ulysse
@@ -46,8 +51,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libshims_android \
     libshims_binder \
-    libshims_ui \
-    libwui
+    libshims_ui
 
 # Rootdir
 PRODUCT_PACKAGES += \

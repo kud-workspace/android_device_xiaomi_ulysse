@@ -18,8 +18,8 @@ function blob_fixup() {
             "${PATCHELF_0_8}" --remove-needed "libprotobuf-cpp-lite.so" "${2}"
             ;;
         vendor/lib/libmmsw_platform.so|vendor/lib/libmmsw_detail_enhancement.so)
+            "${PATCHELF}" --replace-needed "libgui.so" "libgui_vendor.so" "${2}"
             "${PATCHELF}" --remove-needed "libbinder.so" "${2}"
-            sed -i 's|libgui.so|libwui.so|g' "${2}"
             ;;
         vendor/lib/libmmcamera2_sensor_modules.so)
             sed -i 's|/system/etc/camera/|/vendor/etc/camera/|g' "${2}"
@@ -45,11 +45,11 @@ function blob_fixup() {
             ;;
         vendor/lib/libmmcamera2_stats_modules.so)
             sed -i 's|data/misc/camera|data/vendor/qcam|g' "${2}"
-            sed -i 's|libgui.so|libwui.so|g' "${2}"
             "${PATCHELF}" --replace-needed "libandroid.so" "libshims_android.so" "${2}"
+            "${PATCHELF}" --replace-needed "libgui.so" "libgui_vendor.so" "${2}"
             ;;
         vendor/lib/libmmcamera_ppeiscore.so)
-            sed -i 's|libgui.so|libwui.so|g' "${2}"
+            "${PATCHELF}" --replace-needed "libgui.so" "libgui_vendor.so" "${2}"
             "${PATCHELF}" --print-needed "${2}"|grep "libshims_ui.so">/dev/null
             if [ $? -ne 0 ]; then
                 "${PATCHELF}" --add-needed "libshims_ui.so" "${2}"
