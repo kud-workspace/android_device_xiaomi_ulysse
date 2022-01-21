@@ -1,2 +1,9 @@
-persist.s5k3p8sp.	u:object_r:camera_prop:s0
-persist.ov16885.	u:object_r:camera_prop:s0
+# Camera
+persist.s5k3p8sp.               u:object_r:camera_prop:s0
+persist.ov16885.                u:object_r:camera_prop:s0
+
+# Fingerprint
+sys.fp.goodix                   u:object_r:vendor_fingerprint_prop:s0
+sys.fp.vendor                   u:object_r:vendor_fingerprint_prop:s0
+ro.vendor.fingerprint.          u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fingerprint.     u:object_r:vendor_fingerprint_prop:s0
