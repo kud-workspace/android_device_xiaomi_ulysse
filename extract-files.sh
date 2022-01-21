@@ -12,7 +12,9 @@ function blob_fixup() {
             "${PATCHELF}" --set-soname "consumerir.msm8937.so" "${2}"
             ;;
         vendor/lib64/lib_fpc_tac_shared.so)
-            "${PATCHELF}" --add-needed "libshims_binder.so" "${2}"
+            if ! "${PATCHELF}" --print-needed "${2}" | grep "libshims_binder.so" >/dev/null; then
+                "${PATCHELF}" --add-needed "libshims_binder.so" "${2}"
+            fi
             ;;
         vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so)
             "${PATCHELF_0_8}" --remove-needed "libprotobuf-cpp-lite.so" "${2}"
@@ -50,8 +52,7 @@ function blob_fixup() {
             ;;
         vendor/lib/libmmcamera_ppeiscore.so)
             "${PATCHELF}" --replace-needed "libgui.so" "libgui_vendor.so" "${2}"
-            "${PATCHELF}" --print-needed "${2}"|grep "libshims_ui.so">/dev/null
-            if [ $? -ne 0 ]; then
+            if ! "${PATCHELF}" --print-needed "${2}" | grep "libshims_ui.so" >/dev/null; then
                 "${PATCHELF}" --add-needed "libshims_ui.so" "${2}"
             fi
             ;;
