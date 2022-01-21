@@ -8,13 +8,13 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/lib_fpc_tac_shared.so|vendor/lib64/lib_fpc_tac_shared.so)
+        vendor/lib64/lib_fpc_tac_shared.so)
             "${PATCHELF}" --add-needed "libshims_binder.so" "${2}"
             ;;
         vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so)
             "${PATCHELF_0_8}" --remove-needed "libprotobuf-cpp-lite.so" "${2}"
             ;;
-        vendor/lib/libmmsw_platform.so|libmmsw_detail_enhancement.so)
+        vendor/lib/libmmsw_platform.so|vendor/lib/libmmsw_detail_enhancement.so)
             "${PATCHELF}" --remove-needed "libbinder.so" "${2}"
             sed -i 's|libgui.so|libwui.so|g' "${2}"
             ;;
