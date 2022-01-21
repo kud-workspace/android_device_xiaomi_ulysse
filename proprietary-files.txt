@@ -486,10 +486,10 @@ lib64/hw/fingerprint.msm8937.so:vendor/lib64/hw/fingerprint.msm8937.so
 lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so
 
 # Fingerprint - Goodix - from vince
-etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
-lib64/libgf_algo.so:vendor/lib64/libgf_algo.so
-lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
-lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
+etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin|cbd87b30f72e82adf87537fe93911fb2d70bce84
+lib64/libgf_algo.so:vendor/lib64/libgf_algo.so|0e9d1ff46c6d14974ec93e3a146c2c6c0460d1b7
+lib64/libgf_ca.so:vendor/lib64/libgf_ca.so|583a2beee40b38cf14215e4aaa5d872d60b8a00a
+lib64/libgf_hal.so:vendor/lib64/libgf_hal.so|6fd3d415d5822b746a1a9b1163c3c6ddab35912c
 
 # Fingerprint - Goodix HAL - from daisy
 vendor/lib64/hw/gf_fingerprint.default.so|b09aba758c469f3e3ff04197a723a15fbdfafea1
