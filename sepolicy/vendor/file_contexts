@@ -13,6 +13,3 @@
 
 # IR
 /dev/lirc0                                          u:object_r:ir_device:s0
-
-# Shell Script
-/(vendor|system/vendor)/bin/init\.goodix\.sh        u:object_r:init_fingerprint_exec:s0
